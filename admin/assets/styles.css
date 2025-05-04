@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif !important; 
+}
+
+.wrap{
+    width: min(1280px, 90%);
+    margin: 0 auto;
+}
+ 
+.input::placeholder{
+     color: #b5b5b5 !important;  
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:focus, textarea:focus, select:focus{
+    box-shadow: none !important; 
+    outline: 2px solid #001eff !important;   
+}
+.social-hover:hover{
+    color: #001eff;
+}
+
+.themeoutline:focus{
+    box-shadow: none !important;
+    outline: 2px solid #001eff !important;
+    background-color: transparent !important;
+}
+  
