@@ -1,7 +1,7 @@
 <?php
-     $dsn = 'mysql:host=localhost;dbname=homepress';
-     $username = 'root';
-     $password = '';
+     $dsn = 'mysql:host=localhost;dbname=lovenish_sampledb';
+     $username = 'lovenish_lovenish';
+     $password = 'si_6AKTqVBaCY@9';
      
      $options = [
          PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
